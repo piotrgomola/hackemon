@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class grass_controller : MonoBehaviour
 {
@@ -17,9 +18,9 @@ public class grass_controller : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-         if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
-            //If the GameObject's name matches the one you suggest, output this message in the console
+            SceneManager.LoadScene("FightScene");
             Debug.Log("Do something here");
         }
    }
