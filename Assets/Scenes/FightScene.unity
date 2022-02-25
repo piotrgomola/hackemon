@@ -363,13 +363,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b7c697afa2b94d0a8d68b68d3cd682f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  me: {fileID: 0}
-  oponent: {fileID: 0}
-  tilemapWithButtons: {fileID: 0}
-  tilemap: {fileID: 0}
-  infoText: {fileID: 0}
-  catchButton: {fileID: 0}
-  runButton: {fileID: 0}
+  me: {fileID: 10336204}
+  oponent: {fileID: 1681766154}
+  tilemapWithButtons: {fileID: 1158851950}
+  tilemap: {fileID: 731262099}
+  infoText: {fileID: 1473783512}
+  catchButton: {fileID: 1168433633}
+  runButton: {fileID: 530750571}
 --- !u!4 &418974164
 Transform:
   m_ObjectHideFlags: 0
@@ -482,7 +482,7 @@ GameObject:
   - component: {fileID: 530750572}
   - component: {fileID: 530750571}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: RunButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -533,7 +533,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 0.653165, b: 0, a: 1}
     m_HighlightedColor: {r: 0.7830189, g: 0.51280063, b: 0, a: 1}
     m_PressedColor: {r: 0.6226415, g: 0.40776914, b: 0, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0}
+    m_SelectedColor: {r: 1, g: 0.653165, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -2922,7 +2922,7 @@ GameObject:
   - component: {fileID: 1168433634}
   - component: {fileID: 1168433633}
   m_Layer: 5
-  m_Name: Button
+  m_Name: CatchButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2973,7 +2973,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 0.653165, b: 0, a: 1}
     m_HighlightedColor: {r: 0.7830189, g: 0.51280063, b: 0, a: 1}
     m_PressedColor: {r: 0.6226415, g: 0.40776914, b: 0, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 1, g: 0.653165, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -3450,7 +3450,7 @@ GameObject:
   - component: {fileID: 1681766156}
   - component: {fileID: 1681766155}
   m_Layer: 0
-  m_Name: Me (1)
+  m_Name: Oponent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
