@@ -29,9 +29,9 @@ public class player_controller : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");  // -1 = DOWN ... 1 -> DOWN
 
         if (horizontal != 0.0f || vertical != 0.0f) {
-            playerAnimator.SetBool("move", true);
+            playerAnimator.SetBool("moveDown", true);
         } else {
-            playerAnimator.SetBool("move", false);
+            playerAnimator.SetBool("moveDown", false);
         }
 
         if (horizontal < 0.0f) {
