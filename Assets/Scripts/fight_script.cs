@@ -7,7 +7,7 @@ using TMPro;
 public class fight_script : MonoBehaviour
 {
     public GameObject me, oponent, tilemapWithButtons, tilemap;
-    public TextMeshPro infoText;
+    public TextMeshProUGUI infoText;
     public Button catchButton, runButton;
     // Start is called before the first frame update
     void Start()
